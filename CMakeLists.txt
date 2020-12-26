@@ -5,7 +5,7 @@ include_directories(/usr/local/include)
 set(CMAKE_CXX_STANDARD 14)
 
 # Server configuration
-add_executable(SeeChat-Server server/server.cpp)
+add_executable(SeeChat-Server server/server.cpp server/server.h)
 
 # Client configuration
 set(FLTK_DIR /Users/faizaand/Developer/fltk/build)

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SeeChat"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\Developer\;CMake Files\..\..\Developer\fltk\;CMake Files\..\..\Developer\fltk\build\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/faizaand/CLionProjects/SeeChat"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/faizaand/CLionProjects/SeeChat/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/faizaand/CLionProjects/SeeChat/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/faizaand/CLionProjects/SeeChat/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/faizaand/CLionProjects/SeeChat/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/faizaand/CLionProjects/SeeChat"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/faizaand/CLionProjects/SeeChat/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/faizaand/CLionProjects/SeeChat/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/faizaand/CLionProjects/SeeChat/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/faizaand/CLionProjects/SeeChat/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/faizaand/CLionProjects/SeeChat"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/faizaand/CLionProjects/SeeChat/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/faizaand/CLionProjects/SeeChat/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/faizaand/CLionProjects/SeeChat/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/faizaand/CLionProjects/SeeChat/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SeeChat-Client">
+				<Option output="/Users/faizaand/CLionProjects/SeeChat/SeeChat-Client.app/Contents/MacOS/SeeChat-Client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/faizaand/CLionProjects/SeeChat"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/faizaand/Developer/fltk/build"/>
+					<Add directory="/Users/faizaand/Developer/fltk"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/faizaand/CLionProjects/SeeChat/Makefile&quot;  VERBOSE=1 SeeChat-Client"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/faizaand/CLionProjects/SeeChat/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/faizaand/CLionProjects/SeeChat/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/faizaand/CLionProjects/SeeChat/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SeeChat-Client/fast">
+				<Option output="/Users/faizaand/CLionProjects/SeeChat/SeeChat-Client.app/Contents/MacOS/SeeChat-Client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/faizaand/CLionProjects/SeeChat"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/faizaand/Developer/fltk/build"/>
+					<Add directory="/Users/faizaand/Developer/fltk"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/faizaand/CLionProjects/SeeChat/Makefile&quot;  VERBOSE=1 SeeChat-Client/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/faizaand/CLionProjects/SeeChat/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/faizaand/CLionProjects/SeeChat/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/faizaand/CLionProjects/SeeChat/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SeeChat-Server">
+				<Option output="/Users/faizaand/CLionProjects/SeeChat/SeeChat-Server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/faizaand/CLionProjects/SeeChat"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/faizaand/CLionProjects/SeeChat/Makefile&quot;  VERBOSE=1 SeeChat-Server"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/faizaand/CLionProjects/SeeChat/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/faizaand/CLionProjects/SeeChat/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/faizaand/CLionProjects/SeeChat/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SeeChat-Server/fast">
+				<Option output="/Users/faizaand/CLionProjects/SeeChat/SeeChat-Server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/faizaand/CLionProjects/SeeChat"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/faizaand/CLionProjects/SeeChat/Makefile&quot;  VERBOSE=1 SeeChat-Server/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/faizaand/CLionProjects/SeeChat/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/faizaand/CLionProjects/SeeChat/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/faizaand/CLionProjects/SeeChat/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/faizaand/CLionProjects/SeeChat/client/client.cpp">
+			<Option target="SeeChat-Client"/>
+		</Unit>
+		<Unit filename="/Users/faizaand/CLionProjects/SeeChat/server/server.cpp">
+			<Option target="SeeChat-Server"/>
+		</Unit>
+		<Unit filename="/Users/faizaand/CLionProjects/SeeChat/server/server.h">
+			<Option target="SeeChat-Server"/>
+		</Unit>
+		<Unit filename="/Users/faizaand/CLionProjects/SeeChat/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/faizaand/CLionProjects/SeeChat/../../Developer/fltk/build/FLTK-Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\Developer\fltk\build\"/>
+		</Unit>
+		<Unit filename="/Users/faizaand/CLionProjects/SeeChat/../../Developer/fltk/build/FLTKConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Developer\fltk\build\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
