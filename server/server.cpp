@@ -2,6 +2,7 @@
 #include <netinet/in.h>
 #include <arpa/inet.h>
 #include <mutex>
+#include <thread>
 #include "server.h"
 
 std::mutex m;
@@ -53,7 +54,6 @@ namespace sc {
         int mySocket, theirSocket;
         socklen_t theirAddressSize;
         int port;
-        pthread_t receiveThread;
         Client client;
         char ip[INET_ADDRSTRLEN];
 
@@ -96,7 +96,7 @@ namespace sc {
             auto params = new ReceiveParams;
             params->server = this;
             params->socket = &client;
-            pthread_create(&receiveThread, nullptr, Server::receiveMessageHelper, params);
+            std::thread receiver(Server::receiveMessageHelper, params);
             m.unlock();
         }
     }
