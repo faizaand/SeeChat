@@ -1,6 +1,8 @@
 # SeeChat
 ![version](https://img.shields.io/badge/version-0.0.1-green)
 
+![demo](media/demo.png)
+
 SeeChat is a simple chat application written in C++. This repository includes the server as well as the GUI client for the chat service. It's nothing fancy - I only plan to have it support text. The goal is to improve my familiarity with building a C++ project from start to finish. Over time, I may add functionality over time or refactor to improve my understanding of the language.
 
 ## Getting Started
@@ -30,4 +32,4 @@ I would like to stress that this project is solely for my own education. Therefo
 * [**Faizaan Datoo**](https://faizaan.dev) 
 
 ## License
-This project is licensed under the MIT License. See [LICENSE] for more information.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for more information.

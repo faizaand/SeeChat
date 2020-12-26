@@ -41,6 +41,7 @@ namespace sc {
         int len;
         while ((len = recv(client.socketNumber, message, 500, 0)) > 0) {
             message[len] = '\0';
+            std::cout << message << std::endl;
             broadcastToAll(message);
         }
         handleDisconnect(client);
