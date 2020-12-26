@@ -21,6 +21,17 @@ cmake --build ..
 
 This will generate two output files: one for the server, which must be run in the terminal; and one for the client, which can be run as any other application on your system.
 
+### Running
+Now that you have the `SeeChat-Server` and `SeeChat-Client.*` executables, you can go ahead and run the application.
+
+**To start the server**, open a terminal and run `./SeeChat-Server` in the same directory as that file. Enter your desired port, and you're good to go.
+
+**To start the client**, simply run the client executable (double-click on Windows and macOS), enter the server's port and desired username, and you're ready to chat. 
+
+Since the chat application only works on localhost right now, you will need to run at least two instances of the client on your system in order to chat. Up to 100 clients are allowed.
+
+> **On macOS**, the operating system prevents you from running more than one instance of an app at a time. To get around this, open a terminal, navigate to the directory that you kept `SeeChat-Client.app`, and run `open -n SeeChat-Client.app`. This will open another independent instance of the client.
+
 ## Built With
 * [FLTK](https://www.fltk.org)
 * Love <3
